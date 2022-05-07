@@ -268,34 +268,3 @@ section {
     font-size: 1rem;
   }
 }
-
-
-.star {
-    color: white;
-    position: absolute;
-    opacity: 0;
-    animation: fade 30s linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes fade {
-    0% {
-        opacity: 0
-    }
-
-    10% {
-        opacity: 1
-    }
-
-    50% {
-        opacity: 1
-    }
-
-    60% {
-        opacity: 0
-    }
-
-    100% {
-        opacity: 0
-    }
-}
