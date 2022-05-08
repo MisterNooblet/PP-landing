@@ -13,6 +13,7 @@
     --btn-bg-color: #ffffff;
     --accent-color: #808080;
     --header-shadow: #808080 0px 0px 5px;
+    --header-bg: #000;
 }
 /*FLYING PIG*/
 .flier {
@@ -144,6 +145,7 @@ body {
 
 header {
   box-shadow: var(--header-shadow);
+  background-color: var(--header-bg);
 }
 
 header .container {
