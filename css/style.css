@@ -5,8 +5,8 @@
 
 /* GLOBAL STYLES */
 :root {
-    --font-primary: 'Chakra Petch', sans-serif;
-    --font-secondary: 'Gloria Hallelujah', cursive;
+    --font-primary: 'Gloria Hallelujah', cursive;
+    --font-secondary: 'Chakra Petch', sans-serif;
     --font-code: 'Koulen', cursive;
     --bg-color: #000;
     --font-color: #ffffff;
