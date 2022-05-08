@@ -12,7 +12,7 @@
   --accent-color: #be7efe;
   --header-shadow: #808080 0px 0px 5px;
 }
-
+/*FLYING PIG*/
 .flier {
     pointer-events: none;
 }
@@ -71,7 +71,7 @@
         transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
     }
 }
-
+/*BACKGROUND*/
 @keyframes move-twink-back {
     from {
         background-position: 0 0;
