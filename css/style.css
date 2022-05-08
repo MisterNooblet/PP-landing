@@ -33,7 +33,9 @@
     and end its trajectory across the screen. Each rule
     represents a path the element follows across the screen. */
 
-
+.flier {
+    z-index: -1;
+}
 @keyframes fly {
 
     98.001%, 0% {
@@ -103,12 +105,12 @@
 
 .stars {
     background: #000 url(stars.png) repeat top center;
-    z-index: -2;
+    z-index: -3;
 }
 
 .twinkling {
     background: transparent url(twinkling.png) repeat top center;
-    z-index: -1;
+    z-index: -2;
     animation: move-twink-back 200s linear infinite;
 }
 
