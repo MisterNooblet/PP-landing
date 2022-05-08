@@ -46,12 +46,12 @@
 
 .stars {
     background: #000 url(stars.png) repeat top center;
-    z-index: 0;
+    z-index: -1;
 }
 
 .twinkling {
     background: transparent url(twinkling.png) repeat top center;
-    z-index: 1;
+    z-index: 0;
     animation: move-twink-back 200s linear infinite;
 }
 
