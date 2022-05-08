@@ -197,7 +197,7 @@ header .container {
     position: relative;
     width: 150px;
     /*make sure to use same height/width as in the html*/
-    height: 30px;
+    height: 40px;
     display: inline-block;
     border-radius: 3px;
     margin-left: 5px;
