@@ -194,7 +194,7 @@ header .container {
 
 .svg-wrapper {
     margin-top: 0;
-    position: center;
+    position: relative;
     width: 150px;
     /*make sure to use same height/width as in the html*/
     height: 40px;
