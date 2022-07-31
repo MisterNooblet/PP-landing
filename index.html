@@ -1,191 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>PlutoPigs</title>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Candy Machine UI"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-        <!-- favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="images/x-icon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/x-icon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/x-icon/favicon-16x16.png">
-        <link rel="manifest" href="images/x-icon/site.webmanifest">
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Candy Machine UI</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-    <body>
-        <div class="stars"></div>
-        <div class="twinkling"></div>
-        <div class="flier"><img src="flyingpiggo.png" /></div>
-        <header id="myHeader">
-            <div class="container">
-                <div class="logo">
-                    <a href="/">
-                        <img src="images/x-icon/favicon-32x32.png" alt="logo" />
-                    </a>
-                </div>
-                <div class="svg-wrapper">
-                    <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-                        <rect id="shape" height="40" width="150" />
-                        <div id="text">
-                            <a href="#roadmap"><span class="spot"></span>The Roadmap</a>
-                        </div>
-                    </svg>
-                </div>
-                <!--Next button -->
-                <div class="svg-wrapper">
-                    <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-                        <rect id="shape" height="40" width="150" />
-                        <div id="text">
-                            <a href="#about"><span class="spot"></span>About us</a>
-                        </div>
-                    </svg>
-                </div>
-                <div class="menu">
-                    <a href="https://discord.gg/dQEMFTVWx2"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <img src="images/header/discord.webp" alt="Discord" />
-                    </a>
-                    <a href="https://www.twitter.com/PlutoPigsNFT"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <img src="images/header/twitter.webp" alt="Twitter" />
-                    </a>
-                    <a href="https://opensea.io/"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <img src="images/header/opensea.webp" alt="Opensea" />
-                    </a>
-                    
-                    </button>
-                </div>
-            </div>
-        </header>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-        <section class="container">
-            <div class="owner-status"></div>
-            <div class="countdown">
-                <ul id="countdown"
-                    class="count-down"
-                    data-date="Dec 17, 2022 4:00:00 PM UTC">
-                    <li class="clock-item">
-                        <span class="count-number days">20</span>
-                        <p class="count-text">Days</p>
-                    </li>
-
-                    <li class="clock-item">
-                        <span class="count-number hours">20</span>
-                        <p class="count-text">Hour</p>
-                    </li>
-
-                    <li class="clock-item">
-                        <span class="count-number minutes">20</span>
-                        <p class="count-text">Min</p>
-                    </li>
-
-                    <li class="clock-item">
-                        <span class="count-number seconds">20</span>
-                        <p class="count-text">Sec</p>
-                    </li>
-                </ul>
-                <h1>NFT Drop Coming Soon!!</h1>
-
-                <p>Who said Pluto is not a planet? Were gonna colonize it soon!</p>
-                <br />
-                <p>First 500 Volunteers who wish to colonize Pluto with us , will get whitelisted for getting their first PlutoPig before everyone else.</p>
-                <br />
-                <div id="about"></div>
-                <p>So here we are the mastermind's behind this great plan of Colonizing pluto.</p>
-
-                <br />
-                <br />
-
-                <a href="https://www.twitter.com/PlutoPigsNFT"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <img src="images/owners/ab.png" alt="AB" />
-                </a>
-
-                <h1>AB - The Founder &#128303;</h1>
-
-                <a href=""
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <img src="images/owners/sev.png" alt="sev" />
-                </a>
-
-                <h1>SEV - The Artist &#127912;</h1>
-
-                <a href="https://twitter.com/MisterNooblet"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <img src="images/owners/nooblet.png" alt="nooblet" />
-                </a>
-                <div id="roadmap"></div>
-                <h1>NOOBLET - The Ninja &#128174;</h1>
-                
-                <p>PP Roadmap: Blast off to Pluto Pigsty &#55357;&#56381;</p>
-
-                <p>
-                    Phase 1: Community is KEY &#55358;&#56599;&#10084;&#65039;<br />
-                    500 First Discord Members<br />
-                    (First 500 = Automatic Whitelist)
-                </p>
-
-                <p>
-                    Phase 2: Blast Off &#55357;&#56960;<br />
-                    Minting commences on MagicEden.io on the Solana Blockchain at 0.2 SOL ($18) for whitelisted members only!
-                </p>
-
-                <p>
-                    Phase 3: 500 PP Sold Out! &#55357;&#56375;<br />
-                    All members of the whitelist have purchased their PP.
-                </p>
-
-                <p>300 PP Giveaway on our Discord Channel &#55357;&#56446;</p>
-
-                <p>
-                    Phase 4: Pluto on route &#55358;&#56593;<br />
-                    Minting the final 8088 PP on MagicEden.io for the jealous public at 1.8 SOL ($156)
-                </p>
-
-                <p>
-                    Phase 5: Pigs will be pigs &#55357;&#56342; <br />
-                    100% Sold Out<br />
-                    20% of generated SOL will be given away on Discord &#55357;&#56401;
-                </p>
-
-                <p>
-                    Phase 6: What wrong with games? &#55357;&#56446;<br />
-                    Not that we are copying but we loved Doodle Jump at some point. A Web 3.0 game will be created and integrated with your very own PP &#55357;&#56476;
-                </p>
-
-                <p>
-                    Phase 7: Share the Bacon &#55358;&#56659; <br />
-                    Our very own crypto token will be launched on the Solana blockchain and airdropped via giveaway on Discord to everyone in our sty.
-                </p>
-
-                <p>Furthermore, will be launched on a couple of very respected Cryptocurrency Platforms for your disposal and investment &#55357;&#56845;</p>
-
-                <p>Phase 8: We&rsquo;ve landed on Pluto, entered our pigsty and &#55357;&#56485;</p>
-
-                <p>All PP owners which have a male and female PP will be able to &ldquo;reproduce&rdquo; a Baby PP which will be the end of V1 and the beginning of V2.</p>
-
-                <a href="https://discord.gg/dQEMFTVWx2" target="_blank" rel="noopener noreferrer" class="hero-btn btn">
-                    <span>Meanwhile join our community!</span>
-                </a>
-
-
-            </div>
-
-        </section>
-
-        <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
-        <script src="js/countdown.js"></script>
-        <script src="js/app.js"></script>
-        <script src="js/header.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    </body>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
